@@ -1,9 +1,17 @@
+node_modules
+dist
+__pycache__
+tools/out/*.json
+.DS_Store
+
+# Python virtual environments and API secrets
+.venv/
+.venv312/
+__pycache__/
+*.py[cod]
+api/.env
 node_modules/
 dist/
-.DS_Store
-*.log
 .env
-.env.local
-.vscode/
-.idea/
-tools/out/
+.env.*
+!api/.env.example

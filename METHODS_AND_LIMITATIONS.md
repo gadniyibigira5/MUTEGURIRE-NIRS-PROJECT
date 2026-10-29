@@ -1,20 +1,17 @@
-# Methods and limitations
+# Mutegurire — Methods and limitations
 
-## Purpose
-Mutegurire is a descriptive district-level exploration tool for maternal and child health planning in Rwanda. It supports comparison and discussion; it does not make clinical decisions, predict individual outcomes, establish causes, or allocate real resources.
+This root-level file is retained for compatibility with the original project documentation. The canonical, reorganized methodology is now in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md).
 
-## Indicator handling
-- Values are inherited from the supplied prototype and must be verified against the exact NISR publication tables before formal use.
-- Missing values remain unavailable and are excluded from rankings.
-- Ranking direction depends on the indicator: higher values are shown first for prevalence/burden-type indicators; lower values are shown first for coverage indicators when the goal is to surface service gaps.
-- The stunting difference is computed as the 2025 prevalence minus the 2019–20 prevalence, expressed in percentage points. It is shown only when both values exist. Two points do not establish a causal explanation or statistically significant change.
-- Estimated affected-child counts use a district under-five population proxy multiplied by stunting prevalence. These estimates are not official counts.
+For source provenance, read [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md). For known missing indicators and current gaps, read [`DATA_GAPS.md`](DATA_GAPS.md). For the validation pipeline, see [`tools/README.md`](tools/README.md). For the optional model-backed assistant and PDF extraction preview, read [`AI_AND_PDF_IMPORT.md`](AI_AND_PDF_IMPORT.md).
 
-## Scenario planner
-The scenario distributes a hypothetical number of outreach teams using the selected indicator as a simple weight. It omits cost, staff capacity, intervention effectiveness, equity, and uncertainty. It is illustrative only and must not be described as an optimized or validated funding recommendation.
+## Summary of key limitations
 
-## Data limitations
-Indicator coverage differs by district; cross-district comparison is appropriate only where definitions, years, and denominators are comparable. Boundary data may be from an older administrative vintage and needs validation. Survey uncertainty should be considered before interpreting small changes.
+- The current starter validation output contains 0 fully validated records, 129 single-source records, and 81 missing records across seven indicator groups. Single-source values are carried from the prototype and have not been independently cross-checked.
+- The under-five district population is a proxy; the derived burden is not an official count.
+- The bundled district/province boundaries are described as 2006 vintage.
+- The allocation scenario is illustrative, not a cost/effectiveness/equity optimizer.
+- PDF extraction is heuristic and preview-only. It does not update the live data.
+- The optional model endpoint is an existing language-model API, not a custom-trained Mutegurire model.
+- National strategy target statements must be verified against the current official NST2 document before use.
 
-## AI assistance
-AI tools assisted with code generation, interface refinement, and documentation. The team is responsible for source verification, data validation, analytical decisions, and the submitted work.
+AI assisted with code and documentation. The team is responsible for checking all source data, calculations, implementation, and claims.

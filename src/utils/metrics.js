@@ -10,3 +10,15 @@ export const metrics = [
 export const valueOf = (d,id) => id==='burden' ? (d.st == null || d.u5 == null ? null : Math.round(d.u5*d.st/100)) : d[id] ?? null;
 export const formatValue = (v,id) => v==null ? 'Not available' : id==='burden' ? Math.round(v).toLocaleString() : `${Number(v).toLocaleString(undefined,{maximumFractionDigits:1})}%`;
 export const completeness = d => ['st','pov','anc','pnc','teen','un'].filter(k=>d[k]!=null).length;
+
+/** Return a validation status for a district/metric, falling back safely to missing. */
+export function statusOf(validation, districtName, metricId) {
+ const status = validation?.districts?.[districtName]?.[metricId]?.status;
+ return typeof status === 'string' ? status : 'missing';
+}
+
+/** Map status IDs to CSS-friendly class tokens. */
+export function statusColor(status) {
+ const map = { validated:'green', single_source:'amber', discrepancy:'red', missing:'gray', proxy:'blue', derived:'blue' };
+ return map[status] || 'gray';
+}

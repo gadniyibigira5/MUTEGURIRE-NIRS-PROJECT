@@ -1,0 +1,2370 @@
+{
+ "generated_at": "2026-10-29 (manual cross-check of 6 stunting values)",
+ "districts": {
+  "Nyarugenge": {
+   "st": {
+    "value": 8.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 6.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 47728,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 4152,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Gasabo": {
+   "st": {
+    "value": 16,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 11.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 112143,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 17943,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Kicukiro": {
+   "st": {
+    "value": 14.3,
+    "status": "validated",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false,
+    "note": "Stunting 14.3% matches in two sources: NISR/NCDA RDHS 2025 publication and the New Times (Feb 2026) report quoting NCDA. Checked 29 Oct 2026."
+   },
+   "pov": {
+    "value": 6.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 10.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 62699,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 8966,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Nyanza": {
+   "st": {
+    "value": 23.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 43.3,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 90.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 50.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 7.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 4.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 44338,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 10464,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Gisagara": {
+   "st": {
+    "value": 33.2,
+    "status": "validated",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false,
+    "note": "Stunting 33.2% matches in two sources: NISR/NCDA RDHS 2025 publication and the New Times (Feb 2026) report quoting NCDA. Checked 29 Oct 2026."
+   },
+   "pov": {
+    "value": 45.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 83,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 81.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 5.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 8.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 31.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 48136,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 15981,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Nyaruguru": {
+   "st": {
+    "value": 23.9,
+    "status": "validated",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false,
+    "note": "Stunting 23.9% matches in two sources: NISR/NCDA RDHS 2025 publication and the New Times (Feb 2026) report quoting NCDA. Checked 29 Oct 2026."
+   },
+   "pov": {
+    "value": 39.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 87.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 45.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 1.3,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 6.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 39.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 38568,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 9218,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Huye": {
+   "st": {
+    "value": 27.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 24.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 83.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 72.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 8.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 7.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 46299,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 12547,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Nyamagabe": {
+   "st": {
+    "value": 29.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 51.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 85.3,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 86.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 4.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 5.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 45039,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 13241,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Ruhango": {
+   "st": {
+    "value": 22,
+    "status": "validated",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false,
+    "note": "Stunting 22.0% matches in two sources: NISR/NCDA RDHS 2025 publication and the New Times (Feb 2026) report quoting NCDA. Checked 29 Oct 2026."
+   },
+   "pov": {
+    "value": 15,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 83.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 83.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 15.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 7.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 38.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 43538,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 9578,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Muhanga": {
+   "st": {
+    "value": 26.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 15,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 85.3,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 73.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 8.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 7.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 43454,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 11559,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Kamonyi": {
+   "st": {
+    "value": 21.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 39.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 73.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 73.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 5.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 4.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 54658,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 11533,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Karongi": {
+   "st": {
+    "value": 33.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 38.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 32.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 46698,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 15644,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Rutsiro": {
+   "st": {
+    "value": 33.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 40.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 46112,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 15586,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Rubavu": {
+   "st": {
+    "value": 33.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 38.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 68283,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 22602,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Nyabihu": {
+   "st": {
+    "value": 32.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 20.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 46.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 39850,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 13031,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Ngororero": {
+   "st": {
+    "value": 35.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 30.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 50.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 45959,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 16453,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Rusizi": {
+   "st": {
+    "value": 31,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 44.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 30.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 60645,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 18800,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Nyamasheke": {
+   "st": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 42.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 54236,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": null,
+    "status": "derived",
+    "sources": [],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Rulindo": {
+   "st": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 21.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 42727,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": null,
+    "status": "derived",
+    "sources": [],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Gakenke": {
+   "st": {
+    "value": 26,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 24.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 39.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 43338,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 11268,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Musanze": {
+   "st": {
+    "value": 31.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 21,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 56534,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 18034,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Burera": {
+   "st": {
+    "value": 37.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 22,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 46000,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 17296,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Gicumbi": {
+   "st": {
+    "value": 38.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 13.3,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "un": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 53248,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 20660,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Rwamagana": {
+   "st": {
+    "value": 19.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 23.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 84.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 85.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 10.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 7.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 65125,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 12504,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Nyagatare": {
+   "st": {
+    "value": 27.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 36.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 80.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 67.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 8.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 6.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 87808,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 24411,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Gatsibo": {
+   "st": {
+    "value": 29.4,
+    "status": "validated",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false,
+    "note": "Stunting 29.4% matches in two sources: NISR/NCDA RDHS 2025 publication and the New Times (Feb 2026) report quoting NCDA. Checked 29 Oct 2026."
+   },
+   "pov": {
+    "value": 18.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 72.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 85.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 14.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 4.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 27.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 74017,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 21761,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Kayonza": {
+   "st": {
+    "value": 26.1,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 36.6,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 78.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 49.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 14.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 7.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 61392,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 16023,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Kirehe": {
+   "st": {
+    "value": 31.7,
+    "status": "validated",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false,
+    "note": "Stunting 31.7% matches in two sources: NISR/NCDA RDHS 2025 publication and the New Times (Feb 2026) report quoting NCDA. Checked 29 Oct 2026."
+   },
+   "pov": {
+    "value": 14.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 84,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 87,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 6.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 7.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": 31.3,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 61890,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 19619,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Ngoma": {
+   "st": {
+    "value": 26.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 30.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 54.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 49.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 19.2,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 6.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 54260,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 14596,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  },
+  "Bugesera": {
+   "st": {
+    "value": 20.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pov": {
+    "value": 23.7,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "anc": {
+    "value": 84.8,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "pnc": {
+    "value": 69.9,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "teen": {
+    "value": 14.5,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "un": {
+    "value": 10.4,
+    "status": "single_source",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "carried from prototype; not yet cross-checked against NISR tables",
+    "low_reliability": false
+   },
+   "st20": {
+    "value": null,
+    "status": "missing",
+    "sources": [],
+    "notes": "No value is available in the current prototype; value intentionally left missing.",
+    "low_reliability": false
+   },
+   "u5": {
+    "value": 74009,
+    "status": "proxy",
+    "sources": [
+     "legacy"
+    ],
+    "notes": "province-share estimate, not a district projection",
+    "low_reliability": false
+   },
+   "burden": {
+    "value": 15394,
+    "status": "derived",
+    "sources": [
+     "u5",
+     "st"
+    ],
+    "notes": "u5 proxy \u00d7 st prevalence; not an official count",
+    "low_reliability": false
+   }
+  }
+ },
+ "summary": {
+  "validated": 6,
+  "single_source": 123,
+  "discrepancy": 0,
+  "missing": 81
+ },
+ "summary_note": "Starter statuses only: prototype values are single-source until cross-checked. Counts cover the seven source indicators (st, pov, anc, pnc, teen, un, st20) across 30 districts; proxy and derived metrics are excluded."
+}
