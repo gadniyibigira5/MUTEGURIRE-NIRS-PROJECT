@@ -1,0 +1,470 @@
+{
+  "source": "RDHS 2025 DISTRICTS PROFILE_ EASTERN PROVINCE_ Final.pdf",
+  "survey_year": 2025,
+  "review_status": "MANUALLY_VERIFIED_WITH_DOCUMENTED_SOURCE_DISCREPANCY",
+  "units": "percent unless otherwise stated",
+  "geographic_scope": "Eastern Province, Rwanda",
+  "districts": [
+    "Rwamagana",
+    "Nyagatare",
+    "Gatsibo",
+    "Kayonza",
+    "Kirehe",
+    "Ngoma",
+    "Bugesera"
+  ],
+  "indicators": {
+    "maternal_care": {
+      "source": "table_8",
+      "pdf_page": 88,
+      "values": {
+        "Rwamagana": [
+          97.9,
+          96.2,
+          96.2
+        ],
+        "Nyagatare": [
+          98.0,
+          96.1,
+          96.1
+        ],
+        "Gatsibo": [
+          98.0,
+          96.0,
+          96.9
+        ],
+        "Kayonza": [
+          97.9,
+          98.4,
+          98.4
+        ],
+        "Kirehe": [
+          93.9,
+          98.7,
+          100.0
+        ],
+        "Ngoma": [
+          76.3,
+          97.7,
+          98.6
+        ],
+        "Bugesera": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "Eastern Province": [
+          95.2,
+          97.5,
+          97.8
+        ],
+        "Rwanda": [
+          95.4,
+          98.1,
+          98.1
+        ]
+      },
+      "columns": [
+        "anc_skilled_provider",
+        "facility_delivery",
+        "skilled_delivery"
+      ],
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All 27 values (nine areas and three measures) checked against Table 8 on PDF page 88."
+    },
+    "child_nutrition": {
+      "source": "table_10",
+      "pdf_page": 90,
+      "values": {
+        "Rwamagana": [
+          19.2,
+          1.1,
+          6.2
+        ],
+        "Nyagatare": [
+          27.8,
+          1.1,
+          7.4
+        ],
+        "Gatsibo": [
+          29.4,
+          0.8,
+          5.8
+        ],
+        "Kayonza": [
+          26.1,
+          0.8,
+          7.3
+        ],
+        "Kirehe": [
+          31.7,
+          0.2,
+          8.8
+        ],
+        "Ngoma": [
+          26.9,
+          1.1,
+          12.4
+        ],
+        "Bugesera": [
+          20.8,
+          2.2,
+          4.7
+        ],
+        "Eastern Province": [
+          25.8,
+          1.1,
+          7.3
+        ],
+        "Rwanda": [
+          26.8,
+          0.9,
+          6.1
+        ]
+      },
+      "columns": [
+        "stunted",
+        "wasted",
+        "underweight"
+      ],
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All 27 values (nine areas and three measures) checked against Table 10 on PDF page 90."
+    },
+    "antenatal_care_4plus": {
+      "source": "figure_5_2a",
+      "pdf_page": 44,
+      "unit": "percent",
+      "values": {
+        "Rwamagana": 84.5,
+        "Nyagatare": 80.1,
+        "Gatsibo": 72.1,
+        "Kayonza": 78.7,
+        "Kirehe": 84.0,
+        "Ngoma": 54.5,
+        "Bugesera": 84.8,
+        "Eastern Province": 77.4,
+        "Rwanda": 77.5
+      },
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All seven district values and Eastern Province and Rwanda values checked against Figure 5.2a on PDF page 44."
+    },
+    "first_antenatal_visit_timing": {
+      "source": "figure_5_2b",
+      "pdf_page": 45,
+      "unit": "percent",
+      "columns": [
+        "before_4_months",
+        "months_4_to_6",
+        "month_7_or_later"
+      ],
+      "values": {
+        "Rwamagana": [
+          75.2,
+          18.6,
+          4.1
+        ],
+        "Nyagatare": [
+          68.0,
+          25.1,
+          3.7
+        ],
+        "Gatsibo": [
+          65.2,
+          28.2,
+          3.6
+        ],
+        "Kayonza": [
+          66.3,
+          31.5,
+          1.1
+        ],
+        "Kirehe": [
+          75.2,
+          17.5,
+          0.0
+        ],
+        "Ngoma": [
+          49.4,
+          23.1,
+          3.8
+        ],
+        "Bugesera": [
+          65.5,
+          30.8,
+          3.8
+        ],
+        "Eastern Province": [
+          66.5,
+          25.3,
+          3.0
+        ],
+        "Rwanda": [
+          67.0,
+          24.7,
+          3.6
+        ]
+      },
+      "note": "Categories may not total 100% because of other or missing responses.",
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All 27 values checked against Figure 5.2b on PDF page 45."
+    },
+    "postnatal_care_within_two_days": {
+      "source": "figure_5_6",
+      "pdf_page": 48,
+      "unit": "percent",
+      "columns": [
+        "mothers",
+        "newborns"
+      ],
+      "values": {
+        "Rwamagana": [
+          80.1,
+          85.6
+        ],
+        "Nyagatare": [
+          62.7,
+          67.6
+        ],
+        "Gatsibo": [
+          78.7,
+          85.6
+        ],
+        "Kayonza": [
+          43.0,
+          47.7
+        ],
+        "Kirehe": [
+          80.7,
+          87.0
+        ],
+        "Ngoma": [
+          49.8,
+          49.7
+        ],
+        "Bugesera": [
+          65.3,
+          70.6
+        ],
+        "Eastern Province": [
+          65.3,
+          70.6
+        ],
+        "Rwanda": [
+          68.1,
+          71.7
+        ]
+      },
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "Chart values checked against Figure 5.6 on PDF page 48. Gatsibo corrected to 78.7% mothers and 85.6% newborns; Ngoma newborn value corrected to 49.7%. The narrative says Ngoma is lowest for newborns, but the chart shows Kayonza at 47.7%, which is lower."
+    },
+    "family_planning_total_demand": {
+      "source": "figure_4_2",
+      "pdf_page": 39,
+      "unit": "percent",
+      "values": {
+        "Rwamagana": 78.2,
+        "Nyagatare": 77.9,
+        "Gatsibo": 78.8,
+        "Kayonza": 74.3,
+        "Kirehe": 76.0,
+        "Ngoma": 81.8,
+        "Bugesera": 74.1,
+        "Eastern Province": 77.5,
+        "Rwanda": 77.7
+      },
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All seven district values, Eastern Province and Rwanda checked against Figure 4.2 on PDF page 39. Gatsibo 78.8% restored after it was found missing from the JSON."
+    },
+    "family_planning_demand_satisfied": {
+      "source": "figure_4_3",
+      "pdf_page": 40,
+      "unit": "percent",
+      "columns": [
+        "total_demand_satisfied",
+        "demand_satisfied_by_modern_methods"
+      ],
+      "values": {
+        "Rwamagana": [
+          89.1,
+          81.5
+        ],
+        "Nyagatare": [
+          85.5,
+          78.9
+        ],
+        "Gatsibo": [
+          91.8,
+          85.5
+        ],
+        "Kayonza": [
+          87.0,
+          82.0
+        ],
+        "Kirehe": [
+          86.1,
+          82.1
+        ],
+        "Ngoma": [
+          85.0,
+          81.9
+        ],
+        "Bugesera": [
+          79.0,
+          77.1
+        ],
+        "Eastern Province": [
+          86.4,
+          81.3
+        ],
+        "Rwanda": [
+          87.0,
+          82.0
+        ]
+      },
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All 18 values (nine areas and two measures) checked against Figure 4.3 on PDF page 40. District pairings confirmed using chart labels and horizontal positions."
+    },
+    "family_planning_unmet_and_met_need": {
+      "source": "figure_4_4",
+      "pdf_page": 40,
+      "unit": "percent",
+      "columns": [
+        "unmet_need_spacing",
+        "unmet_need_limiting",
+        "unmet_need_total",
+        "met_need_total"
+      ],
+      "values": {
+        "Rwamagana": [
+          3.5,
+          4.1,
+          7.6,
+          44.9
+        ],
+        "Nyagatare": [
+          3.3,
+          3.2,
+          6.5,
+          43.4
+        ],
+        "Gatsibo": [
+          2.9,
+          1.6,
+          4.5,
+          50.4
+        ],
+        "Kayonza": [
+          4.1,
+          3.8,
+          7.9,
+          44.9
+        ],
+        "Kirehe": [
+          2.1,
+          5.1,
+          7.2,
+          45.8
+        ],
+        "Ngoma": [
+          4.1,
+          2.4,
+          6.5,
+          53.2
+        ],
+        "Bugesera": [
+          3.8,
+          6.5,
+          10.4,
+          39.8
+        ],
+        "Eastern Province": [
+          3.4,
+          3.8,
+          7.2,
+          45.6
+        ],
+        "Rwanda": [
+          3.5,
+          3.1,
+          6.6,
+          44.1
+        ]
+      },
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All 36 values (nine areas and four measures) checked against Figure 4.4 on PDF page 40. Reported totals preserved as printed."
+    },
+    "teenage_childbearing": {
+      "source": "figure_3_4",
+      "pdf_page": 37,
+      "unit": "percent",
+      "indicator": "Women aged 15-19 who have begun childbearing",
+      "values": {
+        "Rwamagana": 10.6,
+        "Nyagatare": 8.4,
+        "Gatsibo": 14.6,
+        "Kayonza": 14.4,
+        "Kirehe": 6.4,
+        "Ngoma": 19.2,
+        "Bugesera": 14.5,
+        "Eastern Province": 12.1,
+        "Rwanda": 8.1
+      },
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All nine area values checked visually against Figure 3.4 on PDF page 37. Six district values corrected from the original candidate extraction."
+    },
+    "fertility_rates": {
+      "source": "figure_3_5",
+      "pdf_page": 37,
+      "unit": "births per woman",
+      "columns": [
+        "observed_total_fertility_rate",
+        "wanted_total_fertility_rate"
+      ],
+      "values": {
+        "Rwamagana": [
+          4.0,
+          2.8
+        ],
+        "Nyagatare": [
+          4.4,
+          3.2
+        ],
+        "Gatsibo": [
+          4.0,
+          2.8
+        ],
+        "Kayonza": [
+          4.2,
+          3.3
+        ],
+        "Kirehe": [
+          3.7,
+          2.8
+        ],
+        "Ngoma": [
+          4.0,
+          3.1
+        ],
+        "Bugesera": [
+          3.7,
+          3.0
+        ],
+        "Eastern Province": [
+          4.0,
+          3.1
+        ],
+        "Rwanda": [
+          3.7,
+          2.8
+        ]
+      },
+      "verification_status": "MANUALLY_VERIFIED",
+      "verification_note": "All 18 values (nine areas and two measures) visually checked against Figure 3.5 on PDF page 37. District values also cross-checked against the accompanying narrative."
+    }
+  },
+  "verification_policy": {
+    "status": "MANUALLY_VERIFIED_WITH_DOCUMENTED_SOURCE_DISCREPANCY",
+    "instruction": "All ten indicator groups have been manually checked against their cited RDHS 2025 source pages. Values are survey estimates, not administrative records or evidence of causation. The postnatal-care narrative and chart contain a documented discrepancy; consult the verification note before interpreting that indicator. Do not use these values alone for official decisions.",
+    "original_extraction_preserved": "rdhs_verified_tables.json"
+  }
+}
