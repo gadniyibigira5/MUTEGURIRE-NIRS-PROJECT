@@ -98,7 +98,7 @@ export default function Assistant({ districts, lang = 'en', onFocus }) {
   const indicators = { st: 'Stunting (%)', pov: 'Poverty (%)', anc: 'Antenatal care (%)', pnc: 'Postnatal check (%)', teen: 'Teenage childbearing (%)', un: 'Unmet family-planning need (%)' };
 
   return (
-    <section className="panel assistant-panel" aria-labelledby="ask-title">
+    <section className="panel assistant-panel" data-tour="assistant-panel" aria-labelledby="ask-title">
       <div className="panel-title">
         <div><span className="eyebrow">{t.eyebrow}</span><h3 id="ask-title">{t.title}</h3></div>
         <button type="button" className="assistant-reset" onClick={resetChat} title={t.clear} aria-label={t.clear}><RotateCcw size={15} /></button>
