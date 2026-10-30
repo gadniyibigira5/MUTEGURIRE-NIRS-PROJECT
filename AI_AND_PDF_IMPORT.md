@@ -66,3 +66,9 @@ Current extraction is conservative and heuristic. Scanned/image-only PDFs need O
 ## Production deployment
 
 The Vite frontend and Python API are separate services. Deploy the API to a Python-capable host and set `VITE_API_BASE_URL` to its HTTPS base URL when building the frontend. Configure `CORS_ORIGINS` to the exact frontend origin(s). Keep API keys on the server. Add authentication, rate limits, upload malware scanning, audit logs, and an authenticated approval workflow before using this with official or sensitive documents.
+
+## Continuing PDF processing while navigating
+
+The Ask Mutegurire panel is kept mounted while the user switches between dashboard sections. It is hidden when another section is selected rather than being removed from the React component tree. This preserves the in-progress PDF request, its loading state, and the extracted preview when the user returns to Ask Mutegurire.
+
+This behaviour covers navigation between sections in the same open browser page. It does not guarantee that an upload survives a browser refresh, closing the tab, loss of network connectivity, or a server restart. Durable recovery across those events would require a backend job record and a status/result endpoint.
